@@ -1,7 +1,37 @@
+:root {
+  --primary-color: #2b2b28;
+  --secondary-color: #4a4a48;
+  --highlight-color: #c19898;
+  --off-white: #ebebe3;
+  --font-header: "Arvo", serif;
+  --font-body: "Hind Siliguri", sans-serif;
+}
+body {
+  background-color: var(--off-white);
+  font-family: var(--font-body);
+}
 h1 {
-  font-family: "Arvo", serif;
+  font-family: var(--font-header);
+  font-size: 84px;
 }
 
-p {
-  font-family: "Hind Siliguri", sans-serif;
+h2 {
+  color: var(--off-white);
+  font-size: 24px;
+  font-weight: lighter;
+}
+.hero {
+  background: var(--highlight-color);
+  padding: 50px;
+}
+.hero p {
+  margin: 0;
+  font-size: 30px;
+  font-family: var(--font-header);
+}
+
+.contact-button {
+  border: 2px solid var(--secondary-color);
+  color: var(--secondary-color);
+  font-weight: 500;
 }
