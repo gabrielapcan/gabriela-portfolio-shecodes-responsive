@@ -9,6 +9,7 @@
 body {
   background-color: var(--off-white);
   font-family: var(--font-body);
+  height: 100%;
 }
 h1 {
   font-family: var(--font-header);
@@ -24,9 +25,12 @@ footer {
   background-color: white;
   font-family: var(--font-header);
   font-size: 10px;
-  text-align: center;
+  line-height: 2;
   color: var(--secondary-color);
-  padding: 5px;
+  padding-top: 2px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
 }
 footer a {
   color: var(--primary-color);
@@ -84,6 +88,7 @@ footer a:hover {
 .instagram-icons {
   color: var(--secondary-color);
 }
+
 @media (max-width: 768px) {
   h1 {
     font-size: 60px;
