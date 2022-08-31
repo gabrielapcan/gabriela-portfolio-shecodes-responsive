@@ -55,7 +55,7 @@ small {
   font-family: var(--font-header);
 }
 
-.about-me-hero {
+.subpages-header {
   padding: 30px;
 }
 .about-me-text {
@@ -156,7 +156,16 @@ small {
 .middle-column-btn {
   float: right;
 }
-
+.projects h3 {
+  font-size: 20px;
+}
+.projects p {
+  font-size: 16px;
+  line-height: 2;
+}
+.project-images {
+  border-radius: 4px;
+}
 @media (max-width: 992px) {
   h1 {
     font-size: 60px;
@@ -188,7 +197,7 @@ small {
     margin-top: 40px;
     padding: 0;
   }
-  .about-me-hero {
+  .subpages-header {
     padding: 0px;
     margin: 20px;
   }
