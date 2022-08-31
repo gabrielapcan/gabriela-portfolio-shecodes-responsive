@@ -14,6 +14,7 @@ body {
 h1 {
   font-family: var(--font-header);
   font-size: 84px;
+  color: var(--primary-color);
 }
 
 h2 {
