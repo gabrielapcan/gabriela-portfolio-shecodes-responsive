@@ -38,6 +38,9 @@ footer a {
 footer a:hover {
   color: var(--highlight-color);
 }
+small {
+  font-size: 10px;
+}
 .hero {
   background: var(--highlight-color);
   padding: 50px;
@@ -56,8 +59,7 @@ footer a:hover {
 }
 
 .column-texts {
-  text-align: center;
-  padding: 40px 10px;
+  padding: 20px 10px;
 }
 .column-texts p {
   font-family: var(--font-header);
@@ -88,7 +90,20 @@ footer a:hover {
 .instagram-icons {
   color: var(--secondary-color);
 }
-
+.home-images {
+  width: 100%;
+  padding: 4px;
+  border-radius: 4px;
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4);
+}
+.middle-column {
+  text-align: right;
+}
+.middle-column-btn {
+  float: right;
+}
 @media (max-width: 768px) {
   h1 {
     font-size: 60px;
@@ -102,8 +117,12 @@ footer a:hover {
   .hero {
     padding: 20px;
   }
-  .read-more-buttons {
-    display: flex;
-    justify-content: center;
+
+  .column-texts,
+  .middle-column {
+    text-align: center;
+  }
+  .middle-column-btn {
+    float: initial;
   }
 }
