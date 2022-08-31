@@ -21,6 +21,7 @@ h2 {
   font-size: 24px;
   font-weight: lighter;
 }
+
 footer {
   font-family: var(--font-header);
   font-size: 10px;
@@ -200,6 +201,7 @@ small {
   background-color: var(--highlight-color);
   color: var(--off-white);
 }
+
 @media (max-width: 992px) {
   h1 {
     font-size: 60px;
