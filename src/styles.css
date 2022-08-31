@@ -166,6 +166,26 @@ small {
 .project-images {
   border-radius: 4px;
 }
+.contacts h3 {
+  font-family: var(--font-header);
+  font-size: 20px;
+  color: var(--primary-color);
+  padding: 15px 0;
+}
+.contacts i {
+  font-size: 16px;
+  color: var(--secondary-color);
+  margin-left: 30px;
+}
+.contacts a {
+  font-size: 12px;
+  font-family: var(--font-header);
+  color: var(--highlight-color);
+  text-decoration: none;
+  letter-spacing: 1px;
+  margin-left: 10px;
+}
+
 @media (max-width: 992px) {
   h1 {
     font-size: 60px;
