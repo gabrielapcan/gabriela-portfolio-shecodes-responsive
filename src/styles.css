@@ -225,3 +225,12 @@ small {
     margin: 20px;
   }
 }
+
+@media (min-width: 992px) {
+  .contacts-header {
+    text-align: left;
+  }
+  .subpages-header {
+    padding-left: 0;
+  }
+}
