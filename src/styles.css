@@ -58,32 +58,32 @@ small {
 .subpages-header {
   padding: 30px;
 }
-.about-me-text {
+.subpages-header {
   margin-right: 20px;
   padding: 0 40px;
 }
-.about-me-text h1 {
+.subpages-header h1 {
   font-family: var(--font-header);
   font-size: 60px;
   color: var(--primary-color);
   line-height: 1;
 }
-.about-me-text h2,
-.about-me-text h3 {
+.subpages-header h2,
+.subpages-header h3 {
   font-family: var(--font-body);
   font-size: 20px;
   font-weight: lighter;
   color: var(--secondary-color);
 }
-.about-me-text h3 {
+.subpages-header h3 {
   font-size: 24px;
 }
-.about-me-text h2 {
+.subpages-header h2 {
   font-size: 20px;
   margin-top: 30px;
 }
 
-.about-me-text p {
+.subpages-header p {
   font-family: var(--font-body);
   font-size: 16px;
   line-height: 1.7;
@@ -190,10 +190,10 @@ small {
   .about-image {
     margin-top: 30px;
   }
-  .about-me-text {
+  .subpages-header {
     padding: 0;
   }
-  .about-me-text p {
+  .subpages-header p {
     margin-top: 40px;
     padding: 0;
   }
