@@ -129,6 +129,12 @@ small {
   background: var(--primary-color);
   color: var(--off-white);
 }
+.website-analog {
+  color: var(--highlight-color);
+}
+.website-analog:hover {
+  color: var(--highlight-color);
+}
 .other-links {
   display: flex;
   justify-content: space-evenly;
